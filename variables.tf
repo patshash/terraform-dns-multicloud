@@ -48,3 +48,7 @@ variable "create_gcp_dns_zone" {
 variable "gcp_project" {
   description = "GCP project name"
 }
+
+variable "gcp_region" {
+  description = "GCP region name"
+}
