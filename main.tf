@@ -3,6 +3,7 @@ terraform {
 }
   # AWS General Configuration
 provider "aws" {
+  region  = var.aws_region
 }
 
 # GCP General Configuration
